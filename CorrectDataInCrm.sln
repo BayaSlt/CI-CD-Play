@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectDataInCrm", "CorrectDataInCrm\CorrectDataInCrm.csproj", "{1396CEEF-A6F2-4C98-BE45-622112D5BBAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1396CEEF-A6F2-4C98-BE45-622112D5BBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1396CEEF-A6F2-4C98-BE45-622112D5BBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1396CEEF-A6F2-4C98-BE45-622112D5BBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1396CEEF-A6F2-4C98-BE45-622112D5BBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
