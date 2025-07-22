@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3ff5e241-59f9-4b6f-b278-2b11ee40a188}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{71927c38-42fb-4e52-84c4-7ea4eaa4e931}" IsUserDefined="1">
+          <labels>
+            <label description="Allgemein" languagecode="1031" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{612bce6f-9c43-4846-b7f6-025e26f5cab3}">
+                  <labels>
+                    <label description="Allgemein" languagecode="1031" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a004e7c7-b0e4-4ee8-bc20-05429ae47cbc}">
+                        <labels>
+                          <label description="Employee Name" languagecode="1031" />
+                        </labels>
+                        <control id="bayan_employeename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bayan_employeename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aeb2f85d-7a89-4961-9a46-ab94ab92a89b}">
+                        <labels>
+                          <label description="Besitzer" languagecode="1031" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e0c304f-f64a-4ba4-a974-050678450e79}">
+                        <labels>
+                          <label description="Start Date" languagecode="1031" />
+                        </labels>
+                        <control id="bayan_startdate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="bayan_startdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d739778-eb9d-46eb-9e78-acbc25b50bda}">
+                        <labels>
+                          <label description="End Date" languagecode="1031" />
+                        </labels>
+                        <control id="bayan_enddate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="bayan_enddate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a880e98-30f5-49b4-b691-1eb897e1933e}">
+                        <labels>
+                          <label description="Absence Type" languagecode="1031" />
+                        </labels>
+                        <control id="bayan_absencetype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="bayan_absencetype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a2b3bc7-ea47-409f-bc11-587ab3adda2a}">
+                        <labels>
+                          <label description="Reason" languagecode="1031" />
+                        </labels>
+                        <control id="bayan_reason" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="bayan_reason" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35bf3b48-b42c-47fb-afec-280fc63b763e}">
+                        <labels>
+                          <label description="Submitted On" languagecode="1031" />
+                        </labels>
+                        <control id="bayan_submittedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="bayan_submittedon" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informationen" languagecode="1031" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Ein Formular für diese Entität." languagecode="1031" />
+    </Descriptions>
+  </systemform>
+</forms>

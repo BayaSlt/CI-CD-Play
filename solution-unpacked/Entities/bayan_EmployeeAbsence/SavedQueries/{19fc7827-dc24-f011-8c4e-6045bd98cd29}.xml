@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{19fc7827-dc24-f011-8c4e-6045bd98cd29}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="bayan_employeename" select="1" icon="1" preview="1">
+        <row name="result" id="bayan_employeeabsenceid">
+          <cell name="bayan_employeename" width="200" />
+          <cell name="bayan_startdate" width="200" />
+          <cell name="bayan_enddate" width="200" />
+          <cell name="bayan_reason" width="200" />
+          <cell name="statuscode" width="200" />
+          <cell name="bayan_absencetype" width="120" />
+          <cell name="createdon" width="102" />
+          <cell name="modifiedby" width="116" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="bayan_employeeabsence">&lt;attribute name="bayan_employeename" /&gt;&lt;attribute name="bayan_startdate" /&gt;&lt;attribute name="bayan_enddate" /&gt;&lt;attribute name="bayan_reason" /&gt;&lt;attribute name="statuscode" /&gt;<attribute name="bayan_employeename" /><attribute name="bayan_startdate" /><attribute name="bayan_enddate" /><attribute name="bayan_reason" /><attribute name="statuscode" /><attribute name="bayan_employeeabsenceid" /><attribute name="bayan_absencetype" /><attribute name="createdon" /><attribute name="modifiedby" /><attribute name="ownerid" /></entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Absence" languagecode="1031" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

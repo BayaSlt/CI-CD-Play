@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_bayan_employeeabsence" />
+  <EntityRelationship Name="business_unit_bayan_employeelogin" />
+  <EntityRelationship Name="lk_bayan_employeeabsence_createdby" />
+  <EntityRelationship Name="lk_bayan_employeeabsence_modifiedby" />
+  <EntityRelationship Name="lk_bayan_employeelogin_createdby" />
+  <EntityRelationship Name="lk_bayan_employeelogin_modifiedby" />
+  <EntityRelationship Name="owner_bayan_employeeabsence" />
+  <EntityRelationship Name="owner_bayan_employeelogin" />
+  <EntityRelationship Name="team_bayan_employeeabsence" />
+  <EntityRelationship Name="team_bayan_employeelogin" />
+  <EntityRelationship Name="user_bayan_employeeabsence" />
+  <EntityRelationship Name="user_bayan_employeelogin" />
+</EntityRelationships>

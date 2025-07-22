@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6d3c9939-25b1-471c-a435-e59391c13f5e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="bayan_employeename" select="1" icon="1" preview="1">
+        <row name="result" id="bayan_employeeabsenceid">
+          <cell name="bayan_employeename" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="bayan_startdate" width="150" />
+          <cell name="bayan_enddate" width="150" />
+          <cell name="bayan_absencetype" width="150" />
+          <cell name="bayan_reason" width="150" />
+          <cell name="bayan_submittedon" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="bayan_employeeabsence">
+          <attribute name="bayan_employeeabsenceid" />
+          <attribute name="bayan_employeename" />
+          <attribute name="createdon" />
+          <order attribute="bayan_employeename" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="bayan_startdate" />
+          <attribute name="bayan_enddate" />
+          <attribute name="bayan_absencetype" />
+          <attribute name="bayan_reason" />
+          <attribute name="bayan_submittedon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Aktive Employee Absences" languagecode="1031" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

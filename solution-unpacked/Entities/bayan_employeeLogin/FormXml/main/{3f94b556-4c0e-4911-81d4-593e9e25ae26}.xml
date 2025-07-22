@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3f94b556-4c0e-4911-81d4-593e9e25ae26}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{dafcbe4a-23f9-4bd1-97ef-cf91432b2b90}" IsUserDefined="1">
+          <labels>
+            <label description="Allgemein" languagecode="1031" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7ea03c52-fb75-4480-8f05-479bf0a89715}">
+                  <labels>
+                    <label description="Allgemein" languagecode="1031" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9390436e-24ed-4f98-9a06-23e71f32b1a6}">
+                        <labels>
+                          <label description="Fullname" languagecode="1031" />
+                        </labels>
+                        <control id="bayan_newcolumn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bayan_newcolumn" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8dae8d93-74fd-4770-ae59-7cbb44eecc79}">
+                        <labels>
+                          <label description="Besitzer" languagecode="1031" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c2ee9f5d-624e-4df5-87ab-316bf9d28901}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b9ad724a-eebf-4797-83db-1d63b0135cab}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1031" />
+              </labels>
+            </cell>
+            <cell id="{5c100488-535e-4ad0-9b3e-4b7ae8c3c3cb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1031" />
+              </labels>
+            </cell>
+            <cell id="{bb775541-1fd1-45eb-8f30-882e2c044844}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1031" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ee82dfc1-a7c9-4b82-a32e-f7ea8c328933}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{77072997-5ed5-48ab-88a0-1f7ff6401ebe}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1031" />
+              </labels>
+            </cell>
+            <cell id="{ea4896c6-a982-48a1-94c7-40b7fe4965d2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1031" />
+              </labels>
+            </cell>
+            <cell id="{a0b0cb93-3bbc-4dba-a9bb-193241c14fc0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1031" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informationen" languagecode="1031" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Ein Formular für diese Entität." languagecode="1031" />
+    </Descriptions>
+  </systemform>
+</forms>
